@@ -226,7 +226,7 @@ header nav #activenav{
 /* footer */
 
 footer {
-    background: black;
+    background: #112;
     color: white;
 }
 
@@ -387,35 +387,6 @@ footer .fa {
 
 
 
-
-/* album section */
-
-
-#album  {           
-
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(
-        auto-fit, 
-        minmax(14rem,1fr)
-    );
-}
-
-#album img {    
-    width: 100%;        
-    box-shadow: var(--shadow);
-}
-
-
-
-
-
-
-
-
-
-
-
 /* presentation section */
 
 #presentation {        
@@ -553,6 +524,28 @@ footer .fa {
 }
 
 
+
+
+
+
+
+/* album section */
+
+
+#album  {           
+
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(
+        auto-fit, 
+        minmax(14rem,1fr)
+    );
+}
+
+#album img {    
+    width: 100%;        
+    box-shadow: var(--shadow);
+}
 
 
 
