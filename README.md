@@ -11,13 +11,13 @@ Navigate around a simple 3 page, brochure website of a fictitious photography co
 
 ### Concepts
 
-HTML and CSS
-CSS media queries used for responsivity
-CSS flexbox used for the header
-CSS grid used in various places for the photographs
-CSS variables (custom properties) for storing recurring values
-Responsivity with CSS media queries
-CSS layouts: grid, flexbox
-Stock photographs from imgur
-Icons from google icons
-Icons from Font Awesome
+* HTML and CSS
+* CSS media queries used for responsivity
+* CSS flexbox used for the header
+* CSS grid used in various places for the photographs
+* CSS variables (custom properties) for storing recurring values
+* Responsivity with CSS media queries
+* CSS layouts: grid, flexbox
+* Stock photographs from imgur
+* Icons from google icons
+* Icons from Font Awesome
