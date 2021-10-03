@@ -4,11 +4,12 @@ A brochure site I made in HTML and CSS for a fictitious photography company.
 Responsive for different screen sizes.
 
 
-**** User Experience ****
+* User Experience *
+
 Navigate around a simple 3 page, brochure website of a fictitious photography company. A navigation bar contains links to each page. Parts of the site change their layout to give the best appearance with the current screen width.
 
 
-**** Concepts****
+* Concepts *
 
 HTML and CSS
 CSS media queries used for responsivity
