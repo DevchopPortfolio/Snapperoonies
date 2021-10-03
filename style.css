@@ -1,46 +1,23 @@
 
-
-
 /* globally inherited  */
 
-
-:root {          
-    /* --primary: rgb(255, 176, 29); */
-    /* --dark: #333; */
-    /* --dark: #304045 */
-    /* --offwhite:#f4f4f4;     */
-     
+:root {              
     --mobileviewport: 500px;
     --tabletviewport: 800px;
     
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);   
 
-    --colbackground: #f4f4f4;   
-    /* --colhighlight: #ffa500; */
+    --colbackground: #f4f4f4;       
     --colhighlight: lightblue;
-    --coldark: #224;
-    /* --colmidshade: #d3d3d3; */
+    --coldark: #224;    
     --colmidshade: lightblue;
-
-
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
-    line-height: 1.6;
-    /* color: var(--dark); */
+    line-height: 1.6;    
 }
 
 
-
-
-
-
-
-
-
-
-/* ************** recurring elements ************** */
-
-
+/* ************** RE-OCCURING ELEMENTS ************** */
 
 section,
 footer
@@ -48,28 +25,21 @@ footer
     padding: 4rem 0;    
 }
 
-
 .wrapper {
     width: 80%;
     margin: auto;
     max-width:1100px;         
 }
 
-
-
 h1, h2, h3, h4, h5 {
     margin: 0;      
 }
-
-
 
 h1 {font-size: 3rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.6rem;}
 h4 {font-size: 1.4rem;}
 h5 {font-size: 1.2rem;}
-
-
 
 .fa:hover {opacity: 0.7;}  
 .fa-facebook {  background: #3B5998;}
@@ -82,22 +52,7 @@ h5 {font-size: 1.2rem;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ************** SECTIONS ON EVERY PAGE ************** */
-
-
 
 
 /* body */
@@ -110,18 +65,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* header */
-
-
 
 header {
     box-shadow: 2px 2px 10px #0008;  
@@ -143,10 +87,7 @@ header .wrapper {
 }
 
 
-
-
-
-
+/* header title */
 
 header #title {
     text-decoration: none;
@@ -173,11 +114,7 @@ header #title h4 {
 }
 
 
-
-
-
-
-
+/* header nav */
 
 header nav {
     /* background: red;     */    
@@ -210,17 +147,6 @@ header nav #activenav{
     background-color:#F3F3FF;
     color: var(--coldark);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer */
@@ -268,41 +194,7 @@ footer .fa {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HOMEPAGE */
-
-
-
+                                    /* HOMEPAGE */
 
 /* hero section */
 
@@ -347,13 +239,6 @@ footer .fa {
 }
 
 
-
-
-
-
-
-
-
 /* cards section */
 
 #cardsouterwrap {
@@ -378,13 +263,6 @@ footer .fa {
     border-radius: 1rem;
     background: var(--colmidshade);        
 }
-
-
-
-
-
-
-
 
 
 /* presentation section */
@@ -418,12 +296,6 @@ footer .fa {
 #presentation h2 {
     margin-bottom: 1rem;
 }
-
-
-
-
-
-
 
 
 /* testimonials section */
@@ -466,26 +338,7 @@ footer .fa {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PRICING PAGE */
-
-
-
+                                            /* PRICING PAGE */
 
 #pricing1 h1 {
     text-align: center;       
@@ -524,13 +377,7 @@ footer .fa {
 }
 
 
-
-
-
-
-
 /* album section */
-
 
 #album  {           
 
@@ -549,34 +396,9 @@ footer .fa {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CONTACT PAGE */
-
-
-
-
-
-
-
-
-
-
+                                    /* CONTACT PAGE */
 
 /* contact section 1 */
-
 
 #contact1 h1 {
     text-align: center;    
@@ -586,12 +408,6 @@ footer .fa {
     text-align: justify;  
     padding: 4rem 0rem 0rem 0rem;  
 }
-
-
-
-
-
-
 
 
 /* contact section 2 */
@@ -607,8 +423,7 @@ footer .fa {
 }
 
 
-
-
+/* social icons */
 
 #contact2 #socialicons {
     width: 10rem;    
@@ -640,10 +455,7 @@ footer .fa {
 }
 
 
-
-
-
-
+/* contact */
 
 #contact2 #contacttext #contactcards {
     display: flex;
@@ -675,15 +487,7 @@ footer .fa {
 }
 
 
-
-
-
-
-
-
-
 /* contact section 3 */
-
 
 /* #contact3 { */
     /* background: #224;     */
@@ -703,10 +507,6 @@ footer .fa {
     text-align: justify;
     padding-right: 4rem;
 }
-
-
-
-
 
 #contact3 .messagebox {     
     flex-basis: 140rem; 
@@ -752,34 +552,11 @@ footer .fa {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *************** MEDIA QUERIES ***************** */
-
-
-
+                        /* MEDIA QUERIES */
 
 
 /* var(--mobileviewport) */
 /* var(--tabletviewport) */
-
-
 
 /* QUERIES - ALL PAGES */
 
@@ -796,15 +573,7 @@ footer .fa {
 }
 
 
-
-
-
-
-
-
 /* QUERIES - HOME PAGE */
-
-
 
 /* laptop */
 @media (max-width: 1100px) {
@@ -818,11 +587,8 @@ footer .fa {
 
 }
 
-
-
 /* tablet */
 @media (max-width: 800px) {
-
 
     #presentation {
         position: relative;
@@ -840,8 +606,6 @@ footer .fa {
         box-shadow: none    
     }
 
-
-
     #testimonial #testi-main {        
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
@@ -852,14 +616,11 @@ footer .fa {
         margin-right: 2rem;    
         margin-bottom: 1rem;
     }
-
 }
-
 
 
 /* mobile */
 @media (max-width: 500px) {
-
 
     #hero h1 {
         font-size: 2.2rem;
@@ -886,21 +647,10 @@ footer .fa {
     #presentation #presbox {        
         position: static
     }
-
 }
 
 
-
-
-
-
-
-
-
-
-
 /* QUERIES - PRICING PAGE */
-
 
 /* tablet */
 @media (max-width: 800px) {
@@ -920,21 +670,11 @@ footer .fa {
     #pricing2 .head1 {grid-row: 1/2;}
     #pricing2 .head2 {grid-row: 2/3;}
     #pricing2 .head3 {grid-row: 3/4;}
-
 }    
 
 
 
-
-
-
-
-
-
-
-
 /* QUERIES - CONTACT PAGE */
-
 
 /* laptop */
 @media (max-width: 1100px) {
@@ -959,10 +699,6 @@ footer .fa {
         display: none
     }
 
-
-
-
-
     #contact3 .wrapper {
         /* flex-direction:column; */
         display: block;
@@ -976,10 +712,6 @@ footer .fa {
     #contact3 .messagebox {
         margin: auto;
     }
-
-
-
-
 
 }
 
@@ -1006,7 +738,6 @@ footer .fa {
 
 }
 
-
 /* mobile */
 @media (max-width: 500px) {
 
@@ -1023,8 +754,3 @@ footer .fa {
     }
 
 }
-
-
-
-
-
