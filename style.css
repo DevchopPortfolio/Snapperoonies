@@ -152,7 +152,7 @@ header nav #activenav{
 /* footer */
 
 footer {
-    background: #112;
+    background: #111;
     color: white;
 }
 
@@ -166,7 +166,7 @@ footer article {
     margin: 1rem 1rem;
 }
 
-footer a {
+footer a {    
     color: white;
     text-decoration: none;
 }
@@ -181,7 +181,7 @@ footer p {
 }
  
 footer .fa {
-    display: block;
+    display: inline-block;    
     padding: 0.4rem;
     font-size: 1rem;
     width: 1rem;
