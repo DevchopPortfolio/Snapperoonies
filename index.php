@@ -17,23 +17,14 @@
 
     <!-- HEADER SECTION -->
 
-    <header>
-        <div class="wrapper">
-
-            <a href="./index.html" id="title">                
-                <i class="material-icons">camera</i>
-                <h4>Snapperoonies</h4>
-            </a>
-            <nav>
-                <li id="activenav"> <a href="./index.html"> Home </a> </li>
-                <li> <a href="./pricing.html">Pricing </a> </li>
-                <li> <a href="./contact.html"> Contact </a></li>
-            </nav>  
-
-        </div>
-    </header>
-
+    <?php
+        $home_id = 'activenav';
+        $pricing_id = '';
+        $contact_id = '';
+        include 'header.php';
+    ?>
     
+
     <!-- HERO SECTION -->
 
     <section id="hero">
@@ -41,7 +32,7 @@
             <h1>Snapperoonies </h1>
             <h2> Professional Photography Services</h2>
             <p>Outstanding images. Every time. Contact us today and discuss your project with our photographers.</p>
-            <div id="button"> <a href="contact.html">Contact</a></button>
+            <div id="button"> <a href="contact.php">Contact</a></button>
         </div>
     </section>
 
@@ -145,42 +136,10 @@
 
     <!-- FOOTER SECTION -->
 
-    <footer>
-
-        <div class="wrapper">
-
-            <article>
-                <h3>Contents</h3>
-                <p> <a href="index.html"> Home </a> </p>
-                <p> <a href="pricing.html"> Pricing </a> </p>
-                <p> <a href="contact.html"> Contact </a> </p>                
-            </article>
-
-            <article>
-                <h3>Get In Touch</h3>
-                <p>+44 (0)7777 777777</p>
-                <p>01234 5678901</p>
-                <p>info@snapperoonies.com</p>                
-            </article>
-
-            <article>
-                <h3>Connect</h3>
-                <a href="#" class="fa fa-facebook"></a>                
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-google"></a>
-            </article>
-
-            <article>
-                <h3>Legal</h3>
-                <p> <a href="">Terms and Conditions</a></p>
-                <p> <a href=""> Cookies and Privacy Policy </a></p>
-                <p>Copyright &copy 2021</p>
-            </article>
-
-        </div>
-
-    </footer>
-
+    <?php 
+        include 'footer.html';
+    ?>
+    
 
 </body>
 </html>
