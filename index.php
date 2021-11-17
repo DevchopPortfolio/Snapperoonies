@@ -18,9 +18,12 @@
     <!-- HEADER SECTION -->
 
     <?php
+        // specifies id of each nav element
         $home_id = 'activenav';
         $pricing_id = '';
         $contact_id = '';
+        
+        // includes the header php file
         include 'header.php';
     ?>
     
