@@ -131,8 +131,8 @@ header nav li {
     list-style-type: none;   
 }
 
-header nav li:hover {
-    background: var(--colhighlight);
+header nav li:hover {        
+    background: #DDDDEE;
     cursor:pointer;
 }
 
@@ -143,8 +143,8 @@ header nav a {
 
 header nav #activenav{
     /* font-weight: 700; */
-    border-top: 2px solid var(--coldark);
-    background-color:#F3F3FF;
+    border-top: 2px solid var(--coldark);    
+    background: var(--colmidshade);  
     color: var(--coldark);
 }
 
