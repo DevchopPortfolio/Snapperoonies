@@ -15,7 +15,7 @@
 <body>
 
 
-    <!-- HEADER SECTION -->
+    <!-- HEADER SECTION - external file -->
 
     <?php
         // specifies id of each nav element

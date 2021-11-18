@@ -15,7 +15,7 @@
 <body>
 
 
-    <!-- HEADER SECTION -->
+    <!-- HEADER SECTION - external file -->
 
     <?php
         // specifies id of each nav element
@@ -32,8 +32,8 @@
 
     <section id="hero">
         <div class="wrapper">
-            <h1>Snapperoonies </h1>
-            <h2> Professional Photography Services</h2>
+            <h1>Snapperoonies</h1>
+            <h2>Professional Photography Services</h2>
             <p>Outstanding images. Every time. Contact us today and discuss your project with our photographers.</p>
             <div id="button"> <a href="contact.php">Contact</a></button>
         </div>
